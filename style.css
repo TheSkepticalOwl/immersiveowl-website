@@ -85,14 +85,18 @@ nav li #contactUs {
 }
 
 /* mainContent */
-#mainContent {
+#allContent {
     width: 80%;
+    float: center;
     background-color: #222222;
     margin-left: auto;
     margin-right: auto;
+}
+
+#mainContent {
     padding-left: 5%;
     padding-right: 5%;
-    margin-bottom: -16px;
+    /*margin-bottom: -16px;*/
 }
 
 #mainContent p {
@@ -101,13 +105,15 @@ nav li #contactUs {
 }
 
 /* main footer */
-#mainFooter {
-    width: 80%;
-    background-color: #141414;
-    margin-left: auto;
-    margin-right: auto;
+#mainFooter footer {
+    margin: 0%;
+    padding: 0%;
+}
+
+footer {
+    height: 50px;
+    background-color: #121212;
+    color: #a0a0a0;
     padding-left: 5%;
     padding-right: 5%;
-    margin-top: 0%;
-    padding-top: 0%;
 }
