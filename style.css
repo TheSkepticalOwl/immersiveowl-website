@@ -94,7 +94,7 @@ nav li #contactUs {
     background-color: #222222;
     margin-left: auto;
     margin-right: auto;
-    min-height: 80.7vh;
+    min-height: 84vh;
 }
 
 .anchor {
@@ -148,5 +148,5 @@ footer {
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 160px;
-    padding-top: 5px;
+    padding-top: 2px;
 }
