@@ -17,7 +17,7 @@ header img {
     text-align: left;
     float: left;
     height: 50px;
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 header h1, header h2 {
@@ -35,6 +35,10 @@ header h3 {
 #topbar header {
     margin: 0%;
     padding: 0%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /*NAVIGATION*/
@@ -85,51 +89,64 @@ nav li #contactUs {
 }
 
 /* mainContent */
-#allContent {
-    width: 80%;
+.allContent {
+    width: 100%;
     background-color: #222222;
     margin-left: auto;
     margin-right: auto;
-    min-height: 83.8vh;
+    min-height: 80.7vh;
 }
 
-#leftSidebar {
+.anchor {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.sideNav {
+    height: 100%;
+    width: 160px;
     position: fixed;
-    width: 15%;
-    padding-left: 3%;
-    padding-right: 3%;
-    min-height: inherit;
-    background-color: #471a63;
-    float: left;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    background-color: #3f145a;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-#leftSidebar ul {
-    /*remove bullets*/
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    overflow: hidden;
+.sideNav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #9f9f9f;
+    display: block;
+}
+  
+.sideNav a:hover {
+    color: #f1f1f1;
 }
 
-#mainContent {
-    padding-left: 20%;
+.mainContent {
+    padding-left: 5%;
     padding-right: 5%;
+    margin-left: 160px;
+    margin-top: 50px;
     min-height: inherit;
-    float: left;
+    display: inline-block;
 }
 
-#mainContent p {
+.mainContent p {
     color: #bbbbbb;
 }
 
 /* main footer */
 
 footer {
-    height: 50px;
+    min-height: 50px;
     background-color: #121212;
     color: #a0a0a0;
     padding-left: 5%;
     padding-right: 5%;
-    width: 100%;
-    float: left;
+    margin-left: 160px;
+    padding-top: 5px;
 }
