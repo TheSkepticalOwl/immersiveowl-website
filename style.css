@@ -95,6 +95,7 @@ nav li #contactUs {
     margin-left: auto;
     margin-right: auto;
     min-height: 82.3vh;
+    color: #bbbbbb;
 }
 
 .anchor {
@@ -137,6 +138,19 @@ nav li #contactUs {
 
 .mainContent p {
     color: #bbbbbb;
+}
+
+.mainContent table {
+    border: 3px solid #3f145a;
+    padding: 0%;
+}
+
+.mainContent table tr {
+    border: 0px;
+}
+
+.mainContent table tr td {
+    border: 2px solid #271035;
 }
 
 /* main footer */
