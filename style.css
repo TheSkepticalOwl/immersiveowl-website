@@ -151,6 +151,20 @@ nav li #contactUs {
 
 .mainContent table tr td {
     border: 2px solid #271035;
+    width: 130px;
+}
+
+.mainContent table tr.calendar td table tr, .mainContent table tr.calendar td table tr td {
+    border: 0px;
+}
+
+.mainContent table tr.calendar td table tr td.date {
+    text-align: right;
+    height: 15px;
+}
+
+.mainContent table tr.calendar td table tr td.events {
+    height: 115px;
 }
 
 /* main footer */
